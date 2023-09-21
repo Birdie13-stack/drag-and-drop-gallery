@@ -230,7 +230,20 @@ input{
     max-width: 300px;
   }
 
+  .login h1{
+    margin-right: 200px;
+  }
+
   .login img{
     object-fit: cover;
+  }
+
+  .box{
+    width: 80%;
+  }
+
+  .sign{
+    margin-right: 200px;
+    text-align: center
   }
 }
