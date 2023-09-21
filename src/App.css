@@ -236,6 +236,7 @@ input{
 
   .login img{
     object-fit: cover;
+    height: 400px;
   }
 
   .box{
