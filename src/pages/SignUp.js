@@ -32,7 +32,7 @@ function SignUp() {
           className="box"
         /> */}
 
-        <label htmlFor="username"> Username</label>
+        <label htmlFor="username" className="lab"> Username</label>
         <input
           type="email"
           name="email-password"
@@ -41,7 +41,7 @@ function SignUp() {
           className="box"
           onChange={(e) => setEmail(e.target.value)}
         />
-        <label htmlFor="password">Password</label>
+        <label htmlFor="password" className="lab">Password</label>
         <input
           type="password"
           name="email-password"

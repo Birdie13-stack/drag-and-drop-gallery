@@ -27,7 +27,7 @@ function Login() {
         <img src={camera} alt="" />
         <form onSubmit={handleSubmit}>
           <h1>Login</h1>
-          <label htmlFor="username">Username</label>
+          <label htmlFor="username" className="lab">Username</label>
           <input
             type="email"
             name="email-password"
@@ -36,7 +36,7 @@ function Login() {
             className="box"
             onChange={(e) => setEmail(e.target.value)}
           />
-          <label htmlFor="password">Password</label>
+          <label htmlFor="password" className="lab">Password</label>
           <input
             type="password"
             name="email-password"
